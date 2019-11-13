@@ -1,0 +1,46 @@
+.slider{
+width: 850px;
+height: 505px;
+background-image: url(images/aaa.jpg);
+margin: 100px auto;
+animation: slide 40s infinite;
+border: 10px solid;
+background-color: #ff69b4;
+
+ }
+ @keyframes slide{
+12.5%{
+	background: url(images/bbb.jpg);
+	
+
+}
+25%{
+	background: url(images/ccc.jpg);
+
+
+}
+37.5%{
+	background: url(images/ddd.jpg);
+	
+
+}
+50%{
+	background: url(images/eee.jpg);
+	
+}
+62.5%{
+	background: url(images/fff.jpg);
+    
+}
+75%{
+	background: url(images/ggg.jpg);
+
+}
+
+87.5%{
+	background: url(images/ooo.jpg);
+}
+100%{
+	background: url(images/aaa.jpg);
+}
+}
